@@ -5,11 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test": "node --no-warnings=ExperimentalWarning node_modules/jest/bin/jest.js",
     "start": "node ./src/index.js"
   },
   "author": "Intro to DevOps",
-  "license": "MIT",
+    "license": "MIT",
   "devDependencies": {
     "@eslint/js": "^9.1.1",
     "@types/jest": "^29.5.12",

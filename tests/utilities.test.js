@@ -15,7 +15,7 @@ test("wrapString: wrap complex sentence", () => {
 //
 //Test for invalid string
 test("isValidDateString: invalid format", () => {
-  expect(1).toBe(1);
+  expect(1).toBe(0);
 });
 
 //Test for the wrong amount of "date segments" (see comments in utilities.js for more info)
